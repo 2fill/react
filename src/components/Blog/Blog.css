@@ -1,0 +1,110 @@
+.blog-container {
+  background-color: greenyellow;
+  
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+
+  display: flex; /* flex container, 자식은 flex item */
+  flex-wrap: wrap; /* 부모 넓이보다 클 때 다음 줄 */
+
+  justify-content: center; /* 가로 */
+  align-content: start; /* 세로 */
+}
+
+.blog-container h2 {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 30%;
+
+  position: relative;
+
+  padding: 20px; /* 요소 내 여백 */
+  margin: 20px; /* 다른 요소와 거리 */
+
+  background-color: #f8f9fa;
+  box-shadow: 2px 2px 3px black;
+  border-radius: 8px;
+}
+
+.list:hover {
+  box-shadow: 1px 1px 1px black;
+}
+
+.list h4 {
+  cursor: pointer;
+  line-height: 1.5; /* 줄 간격 */
+}
+
+.list span {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.list button {
+  position: absolute;
+  
+  cursor: pointer;
+
+  /* 부모 요소 내에서의 위치 (부모에 relative) */
+  right: 20px;
+  bottom: 20px;
+}
+
+.modal {
+  position: absolute;
+  width: 80%;
+  max-width: 500px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 10; /* 화면 맨 위 */
+
+  padding: 20px;
+
+  background-color: royalblue;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
+
+.create{
+  width: 100%;
+  margin: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create input{
+  height: 20px;
+  font-size: 16px;
+
+  margin: 0 10px;
+
+  box-shadow: 0 0 2px black;
+  border-radius: 10px;
+  border: none;
+}
+
+.create button{
+  font-size: 13px;
+
+  padding: 3px 10px;
+
+  cursor: pointer;
+
+  background-color: white;
+  box-shadow: 0 0 2px black;
+  border-radius: 10px;
+  border: none;
+}
