@@ -71,3 +71,4 @@ function Card(props){
 }
 
 export default Gallery;
+
