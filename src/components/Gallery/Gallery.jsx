@@ -13,7 +13,7 @@ import img8 from './8.jpg';
 function Gallery() {
   return (
     <>
-      <div className="gallery-container" style={{ backgroundImage: "url('../../back.jpg')" }}>
+      <div className="gallery-container">
         <h2>Gallery</h2>
         <Card
           img = {img1}

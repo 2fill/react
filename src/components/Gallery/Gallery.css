@@ -1,6 +1,4 @@
 .gallery-container {  
-  background-color: transparent;
-
   display: flex;
   flex-wrap: wrap;
 
@@ -8,20 +6,27 @@
   align-items: center;
 
   width: 100%;
+  /* 최대 카드 4개 배치 */
   max-width: 1200px;
   min-height: calc(100vh - 60px);
 
-  z-index: -1;
+  margin: 0 auto;
 }
 
 .gallery-container h2{
+  color: green;
+
   display: flex;
 
   justify-content: center;
   align-items: center;
 
+  font-family: "Ownglyp";
+  font-size: 50px;
+
   width: 100%;
 
+  margin-top: 100px;
 }
 
 .card {
@@ -50,13 +55,24 @@
 }
 
 .card h4 {
-  margin-top: 13px;
+  margin-top: 10px;
 
   text-align: center;
+
+  font-family: "Ownglyp";
+  font-size: 25px;
 }
 
 .card p {
-  margin-top: -15px;
+  margin-top: -35px;
 
   text-align: center;
+
+  font-family: "Ownglyp";
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: "Ownglyp";
+  src: url("../../fonts/Ownglyp.ttf");
 }

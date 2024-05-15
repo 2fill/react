@@ -108,3 +108,8 @@
   border-radius: 10px;
   border: none;
 }
+
+@font-face {
+  font-family: "Ownglyp";
+  src: url("../../fonts/Ownglyp.ttf");
+}
