@@ -19,7 +19,7 @@ function App() {
             <Link to="gallery" smooth={true} duration={500} className='cursor'>Gallery</Link>
           </div>
           <div className='Menu'>
-            <Link to="blog" smooth={true} duration={500} className='cursor'>Blog</Link>
+            <Link to="blog" smooth={true} duration={500} offset={-70}className='cursor'>Blog</Link>
           </div>
         </div>
       </div>
