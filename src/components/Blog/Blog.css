@@ -79,21 +79,25 @@
 }
 
 .modal {
-  position: absolute;
+  background-color: green;
+  color: white;
+
+  position: fixed;
+
   width: 80%;
   max-width: 500px;
-
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  z-index: 10; /* 화면 맨 위 */
-
   padding: 20px;
 
-  background-color: royalblue;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
   border-radius: 8px;
+
+  font-family: "Ownglyp";
+  font-size: 20px;
+
+  z-index: 10; /* 화면 맨 위 */
 }
 
 .create{
