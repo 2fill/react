@@ -1,16 +1,14 @@
 .main_head{
   background-color: greenyellow;
 
-    /* flex container, 자식은 flex item */
+  /* flex container, 자식은 flex item */
   display: flex;
   position: fixed;
   justify-content: space-between;
+  align-items: center; /* 세로 */
 
   width: 100%;
   height: 100px;
-
-  /* 세로 */
-  align-items: center;
 }
 
 .main_title{

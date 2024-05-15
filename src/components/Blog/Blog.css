@@ -1,27 +1,36 @@
 .blog-container {
   background-color: greenyellow;
-  
-  width: 100%;
-  height: 100vh;
-  position: fixed;
+
+  position: static; /* Gallery 밑에 나열 */
 
   display: flex; /* flex container, 자식은 flex item */
   flex-wrap: wrap; /* 부모 넓이보다 클 때 다음 줄 */
 
   justify-content: center; /* 가로 */
   align-content: start; /* 세로 */
+  
+  width: 100%;
+  height: 100vh;
+
+  margin-bottom: 150px;
 }
 
 .blog-container h2 {
-  width: 100%;
+  color: green;
+  font-family: "Ownglyp";
+  font-size: 50px;
 
   display: flex;
 
   justify-content: center;
   align-items: center;
+
+  width: 100%;
 }
 
 .list {
+  font-size: 15px;
+
   width: 30%;
 
   position: relative;
@@ -39,8 +48,11 @@
 }
 
 .list h4 {
+  font-family: "Ownglyp";
+  font-size: 22px;
+
   cursor: pointer;
-  line-height: 1.5; /* 줄 간격 */
+  line-height: 1.3; /* 줄 간격 */
 }
 
 .list span {
@@ -49,6 +61,9 @@
 }
 
 .list button {
+  font-family: "Ownglyp";
+  font-size: 17px;
+
   position: absolute;
   
   cursor: pointer;
@@ -56,6 +71,11 @@
   /* 부모 요소 내에서의 위치 (부모에 relative) */
   right: 20px;
   bottom: 20px;
+
+  background-color: white;
+  box-shadow: 0 0 2px black;
+  border-radius: 15px;
+  border: none;
 }
 
 .modal {
@@ -86,9 +106,10 @@
 }
 
 .create input{
-  height: 20px;
-  font-size: 16px;
+  font-family: "Ownglyp";
+  font-size: 20px;
 
+  height: 20px;
   margin: 0 10px;
 
   box-shadow: 0 0 2px black;
@@ -97,7 +118,8 @@
 }
 
 .create button{
-  font-size: 13px;
+  font-family: "Ownglyp";
+  font-size: 20px;
 
   padding: 3px 10px;
 
@@ -105,7 +127,7 @@
 
   background-color: white;
   box-shadow: 0 0 2px black;
-  border-radius: 10px;
+  border-radius: 15px;
   border: none;
 }
 

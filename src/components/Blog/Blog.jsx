@@ -26,7 +26,7 @@ function Blog() {
                 <input onChange={(e) => {
                     입력값변경(e.target.value);
                 }}
-                placeholder='        제목을 입력하세요.'
+                placeholder='              제목을 입력하세요.'
                 /* input에 적용해야 하니까 */
                 value = {입력값}
                 ></input>
