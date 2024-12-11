@@ -135,6 +135,10 @@
   border: none;
 }
 
+.create input::placeholder{
+  text-align: center;
+}
+
 @font-face {
   font-family: "Ownglyp";
   src: url("../../fonts/Ownglyp.ttf");
